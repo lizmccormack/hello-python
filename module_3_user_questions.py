@@ -35,12 +35,66 @@ if jokes == "Y":
 else:
     no_jokes = input("Why?")
 
+print ("Here are the user's answers!")
+try:
+    not_cats
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (not_cats)
 
-print (not_cats)
-print (not_chocolate)
-print (how_do_you_like_it)
-print (what_do_you_drink)
-print (city)
-print (state)
-print (joke)
-print (no_jokes)
+try:
+  not_chocolate
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (not_chocolate)
+
+try:
+   how_do_you_like_it
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (how_do_you_like_it)
+
+try:
+   what_do_you_drink
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (what_do_you_drink)
+
+try:
+   how_do_you_like_it
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (how_do_you_like_it)
+
+try:
+   cali
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (cali)
+
+try:
+   state
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (state)
+
+try:
+   jokes
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (jokes)
+
+try:
+   no_jokes
+except NameError:
+    print ("User did not answer this question")
+else:
+    print (no_jokes)
