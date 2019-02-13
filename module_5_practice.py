@@ -22,7 +22,9 @@ while counter > 0:
     counter = counter - 1
 
 # 5
-
+for num in range(1, 101):
+    if num % 11 == 0:
+        print (num)
 
 
 # 6
@@ -39,3 +41,10 @@ for color in colors:
     print (color[0])
 
 # 9
+for n in range (7,13):
+    print (n)
+
+# 10
+for n in range (8,13):
+    if n % 2 == 0:
+        print (n)
