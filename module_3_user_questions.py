@@ -33,7 +33,7 @@ if jokes == "Y":
     joke = input("What kinds of melon can't marry? " )
     print ("Catelopes")
 else:
-    no_jokes = input("Why?")
+    no_jokes = input("Why? ")
 
 print ("Here are the user's answers!")
 try:
